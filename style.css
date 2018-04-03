@@ -1,0 +1,129 @@
+body{
+
+}
+
+.wrapper{
+  margin: auto;
+  width: 820px;
+  /* background-color: gray; */
+  height: auto;
+}
+
+.menu .menu-kiri{
+  float: left;
+}
+
+.menu .menu-kiri h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.menu .menu-kanan ul li{
+  display: inline;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.main{
+  height: 87vh;
+  /* margin-bottom: 20px; */
+}
+
+header .kiri{
+  float: left;
+  width: 70%;
+  height: 250px;
+  background-color: blue;
+  position: relative;
+}
+
+header .kiri h2{
+  position: absolute;
+  bottom: 10px;
+  left: 60px;
+  background-color: rgba(0, 0, 0,0.1);
+}
+
+header .kanan{
+  float: right;
+  width: 25%;
+  height: 250px;
+  background-color: yellow;
+}
+
+.konten .kiri{
+  float: left;
+  width: 70%;
+  height: 250px;
+  /* background-color: red; */
+}
+
+.konten .kiri p{
+  text-align: justify;
+}
+
+.konten .kiri h2{
+  font-family: sans-serif;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.konten .kiri .readmore{
+  padding: 5px 5px;
+  background-color: brown;
+  color: black;
+  text-decoration: none;
+}
+
+.konten .kiri .kiri1{
+  float: left;
+  width: 47%;
+  height: 250px;
+  /* background-color: red; */
+}
+
+.konten .kiri .kiri2{
+  float: right;
+  width: 47%;
+  height: 250px;
+  /* background-color: red; */
+}
+
+.konten .kanan{
+  float: right;
+  width: 25%;
+  height: 250px;
+  position: relative;
+}
+
+.konten .kanan blockquote p{
+  margin: 40px 15px;
+  text-align: center;
+}
+
+.konten .kanan blockquote p:before, .konten .kanan blockquote p:after{
+	font-size: 40px;
+	font-style: italic;
+	color: green;
+}
+
+.konten .kanan blockquote p:first-child:before{
+	content:'“';
+	position: absolute;
+	top: 20px;
+	left: 18px;
+}
+
+.konten .kanan blockquote p:last-child:after{
+	content:'”';
+	/* float: right; */
+	position: absolute;
+	bottom: 12px;
+	right: 23px;
+}
+
+footer p{
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
